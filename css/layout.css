@@ -1,0 +1,128 @@
+header {
+  line-height: 600%;
+}
+
+section {
+  line-height: 800%;
+}
+
+#a {
+  width: 100%;
+  height: 75;
+  background-color: lightblue;
+}
+
+#b {
+  width: 100%;
+  height: 150;
+  background-color: lightcoral;
+}
+
+#c {
+  width: 100%;
+  height: 125;
+  background-color: lightgreen;
+}
+
+#d {
+  width: 100%;
+  height: 125;
+  background-color: lightpink;  
+}
+
+#e {
+  width: 50%;
+  height: 240;
+  background-color: lightsalmon;
+  float: right;
+}
+
+#f {
+  width: 50%;
+  height: 240;
+  background-color: lightseagreen;
+}
+
+#g {
+  width: 50%;
+  height: 240;
+  background-color: lightskyblue;
+  float:right;
+}
+
+#h {
+  width: 50%;
+  height: 240;
+  background-color: lightslategray;
+}
+
+#i {
+  width: 100%;
+  height: 80;
+  background-color: lightpink;
+}
+
+@media all and (min-width: 800px) {
+
+  #a {
+    width: 100%;
+    height: 100;
+    background-color: lightblue;
+  }
+  
+  #b {
+    width: 20%;
+    height: 600;
+    background-color: lightcoral;
+    float: left;
+  }
+
+  #c {
+    width: 40%;
+    height: 200;
+    background-color: lightgreen;
+    float: left;
+  }
+
+  #d {
+    width: 40%;
+    height: 200;
+    background-color: lightpink;
+    float: left;
+  }
+
+  #e {
+    width: 20%;
+    height: 250;
+    background-color: lightsalmon;
+    float: left;
+  }
+
+  #f {
+    width: 20%;
+    height: 250;
+    background-color: lightseagreen;
+    float: left;
+  }
+
+  #g {
+    width: 20%;
+    height: 250;
+    background-color: lightskyblue;
+    float: left;
+  }
+
+  #h {
+    width: 20%;
+    height: 250;
+    background-color: lightslategray;
+    float: left;
+  }
+
+  #i {
+    width: 80%;
+    height: 150;
+    float: right;
+    background-color: lightpink;
+  }
+}
