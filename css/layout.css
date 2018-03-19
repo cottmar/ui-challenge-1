@@ -1,16 +1,14 @@
-.fullWidth {
-  height: 75;
-  width: 480px;
+header {
+  line-height: 600%;
 }
 
-.halfWidth {
-  height: 250;
-  width: 240px;
+section {
+  line-height: 800%;
 }
 
 #a {
   width: 100%;
-  height: static;
+  height: 75;
   background-color: lightblue;
 }
 
@@ -66,76 +64,65 @@
 
 @media all and (min-width: 800px) {
 
-  .fullWidth {
-    width: 960px;
-    height: 100;
-  }
-
-  .halfWidth {
-    width: 480px;
-    height: static;
-  }
-  
   #a {
     width: 100%;
-    height: static;
+    height: 100;
     background-color: lightblue;
   }
   
   #b {
-    width: 24%;
+    width: 20%;
     height: 600;
     background-color: lightcoral;
     float: left;
   }
 
   #c {
-    width: 38%;
+    width: 40%;
     height: 200;
     background-color: lightgreen;
     float: left;
   }
 
   #d {
-    width: 38%;
+    width: 40%;
     height: 200;
     background-color: lightpink;
     float: left;
   }
 
   #e {
-    width: 19%;
+    width: 20%;
     height: 250;
     background-color: lightsalmon;
     float: left;
   }
 
   #f {
-    width: 19%;
+    width: 20%;
     height: 250;
     background-color: lightseagreen;
     float: left;
   }
 
   #g {
-    width: 19%;
+    width: 20%;
     height: 250;
     background-color: lightskyblue;
     float: left;
   }
 
   #h {
-    width: 19%;
+    width: 20%;
     height: 250;
     background-color: lightslategray;
     float: left;
   }
 
   #i {
-    width: 76%;
+    width: 80%;
     height: 150;
     float: right;
     background-color: lightpink;
-    
   }
 }
